@@ -31,3 +31,7 @@ http://localhost:8888 Hue arayüzü
 username/pass = cloudera/cloudera
 
 ```
+
+#### Tekrardan Konternerın komut satırına girmek istersek
+* docker ps -a
+* docker exec -it <Contaıner_ID>
