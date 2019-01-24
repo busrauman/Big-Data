@@ -1,8 +1,8 @@
 # Cloudera Manager Ortamının Docker Konteynırı ile Kurulması
-###Docker Kurulumu
+### Docker Kurulumu
 curl -sSL https://get.docker.com | bash
 
-###Cloudera Docker Image Kurulumu
+### Cloudera Docker Image Kurulumu
 [Cloudera](https://www.cloudera.com/downloads/quickstart_vms/5-13.html) sitesinden Docker Image seçeneği seçilerek aşağıdaki adımlar ile kuruluma başlanır.
 Eğer uzak makineye kurulum yapmak isterseniz. Aşağıdaki komut ile direkt image'i indirebilirsiniz.
 ```
