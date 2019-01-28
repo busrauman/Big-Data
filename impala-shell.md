@@ -31,3 +31,8 @@ impala-shell -q "select * from calls"
 impala-shell -f file.sql
 
 ```
+### External bir tablo yaratma
+```
+create external table messages (user string, other string , direction string , length int, `timestamp` String) row format delimited fields terminated by ',' stored as TEXTFILE location '/data/messages' tblproperties("skip.header.line.count"="1");
+
+```

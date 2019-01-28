@@ -22,3 +22,7 @@ hadoop fs -komut şeklinde bir yazımı vardır. Linux komutlarına aşinaysanı
 #### Dosya / Dizin Silme
 
 * hadoop fs -rm -r -f <dir | file name>
+
+
+### Dosya Sonuna eklememe
+* echo "hello world" | hadoop fs -appendToFile - /dir/hadoop/hello_world.txt
