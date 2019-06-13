@@ -1,4 +1,4 @@
-# Cloudera Manager Ortamının Docker Konteynırı ile Kurulması
+# Cloudera Manager Ortamının Docker Container'ı ile Kurulması
 ### Docker Kurulumu
 curl -sSL https://get.docker.com | bash
 
