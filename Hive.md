@@ -1,6 +1,7 @@
 ### Connection
 ```
 beeline -n hive -u "jdbc:hive2://quickstart.cloudera:10000/default"
+
 ```
 
 ### Create Call table
